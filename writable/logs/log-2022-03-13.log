@@ -1,0 +1,37 @@
+ERROR - 2022-03-13 22:32:30 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-03-13 22:32:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\cafein-master\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\cafein-master\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\cafein-master\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\cafein-master\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\cafein-master\app\Controllers\login.php(24): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\login->index()
+#6 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#7 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cafein-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cafein-master\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-13 23:13:14 --> Undefined array key "nominal"
+#0 C:\xampp\htdocs\cafein-master\app\Controllers\Antrian.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->rincianPesanan()
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 23:13:21 --> Undefined array key "nominal"
+#0 C:\xampp\htdocs\cafein-master\app\Controllers\Antrian.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->rincianPesanan()
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 23:30:30 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\cafein-master\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\cafein-master\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein-master\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\cafein-master\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\cafein-master\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

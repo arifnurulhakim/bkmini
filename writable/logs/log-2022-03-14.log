@@ -1,0 +1,156 @@
+CRITICAL - 2022-03-14 00:07:52 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:07:55 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:07:55 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:07:56 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:07:56 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:07:58 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:10:11 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:10:13 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:10:13 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:10:14 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:10:14 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:10:14 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:10:14 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:10:14 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:10:28 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:15:27 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:15:27 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:15:30 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:15:33 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:15:33 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:15:33 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:15:35 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:15:36 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:18:30 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:18:32 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-14 00:18:35 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\Antrian->proses()
+#1 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

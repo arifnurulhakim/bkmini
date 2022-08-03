@@ -1,0 +1,59 @@
+ERROR - 2022-07-31 03:39:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-31 03:39:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\bkmini\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bkmini\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\bkmini\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\bkmini\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\bkmini\app\Controllers\customer.php(28): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(824): App\Controllers\customer->index()
+#6 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\customer))
+#7 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bkmini\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bkmini\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-31 18:00:32 --> There is no data to update.
+#0 C:\xampp\htdocs\bkmini\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\bkmini\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\bkmini\app\Controllers\Menu.php(60): CodeIgniter\Model->update('32', Array)
+#3 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(824): App\Controllers\Menu->ubahStok()
+#4 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bkmini\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-31 18:00:34 --> There is no data to update.
+#0 C:\xampp\htdocs\bkmini\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\bkmini\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\bkmini\app\Controllers\Menu.php(60): CodeIgniter\Model->update('31', Array)
+#3 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(824): App\Controllers\Menu->ubahStok()
+#4 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bkmini\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-31 18:03:38 --> There is no data to update.
+#0 C:\xampp\htdocs\bkmini\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\bkmini\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\bkmini\app\Controllers\Menu.php(60): CodeIgniter\Model->update('32', Array)
+#3 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(824): App\Controllers\Menu->ubahStok()
+#4 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bkmini\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-31 18:03:50 --> There is no data to update.
+#0 C:\xampp\htdocs\bkmini\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\bkmini\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\bkmini\app\Controllers\Menu.php(60): CodeIgniter\Model->update('31', Array)
+#3 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(824): App\Controllers\Menu->ubahStok()
+#4 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bkmini\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-31 18:04:25 --> There is no data to update.
+#0 C:\xampp\htdocs\bkmini\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\bkmini\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\bkmini\app\Controllers\Menu.php(60): CodeIgniter\Model->update('32', Array)
+#3 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(824): App\Controllers\Menu->ubahStok()
+#4 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\bkmini\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

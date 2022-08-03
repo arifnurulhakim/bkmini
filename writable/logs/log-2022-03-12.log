@@ -1,0 +1,27 @@
+CRITICAL - 2022-03-12 13:35:06 --> file_get_contents(): Read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 460)
+#1 C:\xampp\htdocs\cafein-master\system\Debug\Toolbar.php(460): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein-master\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp\htdocs\cafein-master\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 15:33:23 --> file_get_contents(): Read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 460)
+#1 C:\xampp\htdocs\cafein-master\system\Debug\Toolbar.php(460): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein-master\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp\htdocs\cafein-master\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-12 15:33:25 --> Undefined variable $makanan
+#0 C:\xampp\htdocs\cafein-master\app\Views\pesan.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\cafein-master\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein-master\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cafein-master\system\Common.php(1097): CodeIgniter\View\View->render('pesan', Array, true)
+#4 C:\xampp\htdocs\cafein-master\app\Controllers\pesan.php(21): view('pesan')
+#5 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(824): App\Controllers\pesan->index()
+#6 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pesan))
+#7 C:\xampp\htdocs\cafein-master\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cafein-master\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
