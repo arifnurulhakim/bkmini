@@ -56,6 +56,11 @@ class Menu extends BaseController
         $this->menuModel->update($this->request->getPost("id"), ["status" => $this->request->getPost("status")]);
     }
 
+    public function ubahStok()
+    {
+        $this->menuModel->update($this->request->getPost("id"), ["stok" => $this->request->getPost("stok")]);
+    }
+
     function update($data, $id)
     {
         $data = array(
@@ -65,10 +70,7 @@ class Menu extends BaseController
         $this->menuModel->update($data, $this->input->post('id'));
     }
 
-    public function ubahStok()
-    {
-        $this->menuModel->update($this->request->getPost("id"), ["stok" => $this->request->getPost("stok")]);
-    }
+
 
     public function getMenu()
     {

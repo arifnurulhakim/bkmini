@@ -1,0 +1,57 @@
+CRITICAL - 2022-08-06 00:32:15 --> Undefined array key 5
+#0 C:\xampp\htdocs\bkmini\app\Views\home.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 279)
+#1 C:\xampp\htdocs\bkmini\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bkmini\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bkmini\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\bkmini\app\Controllers\customer.php(33): view('home', Array)
+#5 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(824): App\Controllers\customer->index()
+#6 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\customer))
+#7 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bkmini\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bkmini\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-06 00:33:40 --> Undefined array key 5
+#0 C:\xampp\htdocs\bkmini\app\Views\home.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 279)
+#1 C:\xampp\htdocs\bkmini\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bkmini\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bkmini\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\bkmini\app\Controllers\customer.php(33): view('home', Array)
+#5 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(824): App\Controllers\customer->index()
+#6 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\customer))
+#7 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bkmini\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bkmini\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-06 00:33:54 --> Undefined array key 5
+#0 C:\xampp\htdocs\bkmini\app\Views\home.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 279)
+#1 C:\xampp\htdocs\bkmini\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bkmini\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bkmini\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\bkmini\app\Controllers\customer.php(33): view('home', Array)
+#5 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(824): App\Controllers\customer->index()
+#6 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\customer))
+#7 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bkmini\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 00:35:39 --> Undefined array key 5
+#0 C:\xampp\htdocs\bkmini\app\Views\home.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 279)
+#1 C:\xampp\htdocs\bkmini\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bkmini\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bkmini\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\bkmini\app\Controllers\customer.php(33): view('home', Array)
+#5 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(824): App\Controllers\customer->index()
+#6 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\customer))
+#7 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bkmini\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 00:36:27 --> Undefined array key 5
+#0 C:\xampp\htdocs\bkmini\app\Views\home.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 279)
+#1 C:\xampp\htdocs\bkmini\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bkmini\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bkmini\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\bkmini\app\Controllers\customer.php(33): view('home', Array)
+#5 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(824): App\Controllers\customer->index()
+#6 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\customer))
+#7 C:\xampp\htdocs\bkmini\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bkmini\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

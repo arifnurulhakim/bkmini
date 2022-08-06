@@ -36,6 +36,9 @@
                         <th>
                             Hapus
                         </th>
+                        <th>
+                            Update
+                        </th>
                     </thead>
                     <tbody id="tabelUser">
                     </tbody>
@@ -45,7 +48,7 @@
     </div>
 </div>
 
-
+<!-- modal tambah  -->
 <div class="modal fade" id="modalTambah" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -70,6 +73,7 @@
                             <input type="number" id="harga" class="form-control" aria-label="Amount (to the nearest dollar)">
                         </div>
                     </div>
+
                     <div class="form-group row">
                         <div class="input-group">
                             <select name="jenis" id="jenis" class="form-control">
@@ -80,6 +84,69 @@
                             </select>
                         </div>
                     </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-primary text-white">stok</span>
+                            </div>
+                            <input type="number" id="stok" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="tambah()" class="btn btn-info">Tambah</button>
+                <button type="button" class="btn btn-secondary" onclick="tutupTambah()">Batal</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal edit  -->
+<div class="modal fade" id="modalEdit" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Edit Menu</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-primary text-white">Nama</span>
+                            </div>
+                            <input type="text" id="nama" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-primary text-white">Harga</span>
+                            </div>
+                            <input type="number" id="harga" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="input-group">
+                            <select name="jenis" id="jenis" class="form-control">
+                                <option value="1">Makanan</option>
+                                <option value="2">Snack</option>
+                                <option value="3">Minuman Dingin</option>
+                                <option value="4">Minuman Panas</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-primary text-white">stok</span>
+                            </div>
+                            <input type="number" id="stok" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                    </div>
+
                 </form>
             </div>
             <div class="modal-footer">
@@ -90,7 +157,7 @@
     </div>
 </div>
 
-
+<!-- modal hapus -->
 <div class="modal fade" id="modalHapus" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -108,7 +175,7 @@
         </div>
     </div>
 </div>
-
+<!-- modal upload  -->
 <div class="modal fade" id="modalUpload" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -157,16 +224,16 @@
                     }
 
                     tabel += "<td>" + data[i].harga +
-                        "<td class='table_data' id='stok' data-row_id='+data[i].id+' data-column_name='stok' contenteditable>'+ data[i].stok +" +
-                        "</td><td><select class='form-control text-dark' id='status" + data[i].id + "' onChange='ubahStatus(" + data[i].id + ")'>"
-                    if (data[i].status == 0) {
-                        tabel += "<option value='0' selected>Habis</option>"
-                        tabel += "<option value='1'>Tersedia</option>"
+                        "</td><td>" + data[i].stok +
+                        "</td><td>"
+                    if (data[i].stok == 0) {
+                        tabel += "Habis"
                     } else {
-                        tabel += "<option value='0' >Habis</option>"
-                        tabel += "<option value='1' selected>Tersedia</option>"
-                    }
-                    tabel += "</select></td><td><a href='#' onClick='tryUpload(" + data[i].id + ", \"" + data[i].nama + "\" ,\"" + data[i].foto + "\")'><i class='mdi mdi-upload'></i></a></td><td><a href='#' id='hapus" + data[i].id + "' onclick='tryHapus(" + data[i].id + ", \"" + data[i].nama + "\")' ><i class='mdi mdi-delete'></i > </a></td > < /tr>"
+                        tabel += "Tersedia"
+                    } +
+                    "</td>"
+
+                    tabel += "<td> <a href='#' onClick='tryUpload(" + data[i].id + ", \"" + data[i].nama + "\" ,\"" + data[i].foto + "\")'><i class='mdi mdi-upload'></i></a></td><td><a href='#' id='hapus" + data[i].id + "' onclick='tryHapus(" + data[i].id + ", \"" + data[i].nama + "\")' ><i class='mdi mdi-delete'></i ></a></td><td><a href='#' id='delete" + data[i].id + "' onclick='tryEdit(" + data[i].id + ", \"" + data[i].nama + "\")' ><i class='mdi mdi-update'></i >  </a></td > < /tr>"
 
                 }
                 if (!tabel) {
@@ -209,6 +276,17 @@
             });
         }
     }
+    $("#dataKeluhan").on("click", ".btn-edit", function() {
+        let id = $(this).data("id");
+        let nama_keluhan = $(this).data("nama_keluhan");
+        let detail = $(this).data("detail");
+        $("#add-modal").modal("show");
+        $(".modal-title").html("Edit Keluhan");
+        $(".add").html("Update");
+        $("#id").val(id);
+        $("#nama_keluhan").val(nama_keluhan);
+        $("#detail").val(detail);
+    });
 
     function tryHapus(id, nama) {
         $("#idHapus").val(id)
